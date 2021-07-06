@@ -192,14 +192,24 @@ p {
 
 @media only screen and (max-width: 425px) {
   .chatbot-container {
-    right: 5px;
-    width: 367px;
+    right: 1px;
+    width: 326px;
+    height: 567px;
+    bottom: 0px;
   }
   .question-box {
     width: 268px;
+    height: 225px;
+
+  }
+  .question{
+    font-size: 11px;
+
   }
   .question-section {
-    width: 336px;
+    width: 301px;
+    height: 365px;
+    top: 189px;
   }
   .button {
     width: 241px;
@@ -210,14 +220,26 @@ p {
     height: 17px;
   }
   .header-part {
-    width: 367px;
+    width:326px;
+  }
+  .header-content{
+    padding-top:28px;
+    height:115px;
+
+  }
+  .bot-icon-part{
+    top: 158px;
+
   }
   .question-box-1,
   .question-box-2,
   .question-box-3,
   .question-box-4 {
-    width: 286px;
-    padding-left: 0px;
+    width: 273px;
+    padding-left: 6px;
+    height: 45px;
+
+
   }
   .chatbot-icon {
     font-size: 92px;
